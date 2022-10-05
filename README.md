@@ -1,2 +1,2 @@
-# clock-club
-For UK clock-club publicity
+# UK ClockClub
+For UK Clock Club publicity
