@@ -1,0 +1,4 @@
+
+Some guide how to make a legend that reflects both sizes and colors
+
+https://roh.engineering/posts/2021/05/map-symbols-and-size-legends-for-leaflet/
