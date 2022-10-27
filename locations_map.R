@@ -13,7 +13,7 @@ dotsColor =  colorBin("plasma", domain = 0:70, bins = 7)
 
 loc_map <- leaflet(data) %>% 
   addTiles() %>% 
-  setView(-3.475300, 55.89687, zoom = 7) %>%
+  setView(-3.475300, 55.89687, zoom = 6) %>%
   addCircles(lng = data$Long,lat = data$Lat, label = data$Location,
              weight =20, color = ~dotsColor(data$Value), radius = data$Value*100, opacity = 0.7) %>%
   addLegend(data= data,"bottomright",pal = dotsColor, values = data$Value,
